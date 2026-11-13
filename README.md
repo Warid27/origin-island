@@ -7,6 +7,9 @@ selalu terlihat, jadi Anda tidak perlu terus mengecek terminal.
 
 Dibuat oleh **[Gus Khamim](https://guskhamim.com)** · [Situs resmi](https://amimhayden22.github.io/origin-island/)
 
+> Fork ini menambahkan integrasi untuk **[Jcode](https://github.com/1jehuang/jcode)** di folder [`jcode/`](jcode/).
+> Versi Claude Code di atas tetap utuh dan tidak diubah. Lihat [`jcode/ORIGIN-ISLAND-JCODE.md`](jcode/ORIGIN-ISLAND-JCODE.md).
+
 ![Claude selesai](docs/done.png)
 
 ## Pasang
