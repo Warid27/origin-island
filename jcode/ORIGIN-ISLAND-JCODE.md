@@ -14,11 +14,11 @@ Subagent-specific grouping is not yet implemented. Jcode's current stable observ
 
 ## Install
 
-From PowerShell in this checkout:
+From PowerShell in this checkout (run from the repository root):
 
 ```powershell
 Set-ExecutionPolicy -Scope Process Bypass
-.\install.ps1
+.\jcode\install.ps1
 ```
 
 It copies the Windows app to `%LOCALAPPDATA%\OriginIslandJcode`, backs up the active `config.toml`, and appends the observer hook to `turn_start`, `turn_end`, `session_start`, and `session_end`. It honors `JCODE_HOME` if set. Existing unrelated configuration and hooks are preserved. Restart Jcode after installation.
@@ -30,6 +30,12 @@ Run `uninstall.ps1`, confirm the prompt, and it removes this integration's hooks
 ## Test
 
 Run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File .\test-integration.ps1` to check installer idempotence, preservation of an unrelated hook setting, and event serialization.
+
+## License and credits
+
+- Code: MIT (see the repository LICENSE).
+- The Ogin mascot and icons are the work of Gus Khamim and are **not** covered by the MIT license. They are used here with attribution; redistribution or commercial use of the mascot requires the original author's permission.
+- Notification sounds are from Pixabay and remain under Pixabay's own license.
 
 ## Known limitations
 
